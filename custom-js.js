@@ -43,4 +43,6 @@ document.addEventListener('DOMContentLoaded', (loaded) =>{
        "<img id= 'image' src='./img.logo.png' alt='header logo'>" +
       "</a>"
 
+      document.getElementById(main).style.cssText = "width: auto; background-color: #f8f8f8;";
+
 });
